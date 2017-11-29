@@ -1,0 +1,4 @@
+[
+ {"keys": ["super+k", "super+k"], "command": "focus_neighboring_group"},
+ {"keys": ["super+k", "super+j"], "command": "focus_neighboring_group"} 
+]

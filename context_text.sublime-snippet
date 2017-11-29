@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+"context": "text"
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>context text</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+  <description>for Text Commands</description>
+</snippet>

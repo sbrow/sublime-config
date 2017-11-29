@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+System.out.printf("${1:text}%n");
+]]></content>
+<tabTrigger>System.out.printf</tabTrigger>
+<scope>source.java</scope>
+<description>System.out.printf()</description>
+</snippet>

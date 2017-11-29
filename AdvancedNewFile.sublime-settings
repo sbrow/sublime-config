@@ -1,0 +1,5 @@
+{
+  "alias": {"User": "~/Library/Application Support/Sublime Text 3/Packages/User"},
+  // "default_initial": "Source/"
+  "default_root": "current"
+}

@@ -1,0 +1,8 @@
+<snippet>
+	<content>
+<![CDATA[System.out.print("${1:text}");]]>
+	</content>
+<tabTrigger>System.out.print</tabTrigger>
+<scope>source.java</scope>
+<description>System.out.print()</description>
+</snippet>

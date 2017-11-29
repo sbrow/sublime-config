@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+{
+  "caption": "${1:Name}",
+  "command": "run_multiple_commands",
+  "args": {
+    "commands": [
+      { "command": "${2:Comm1}", "context": "${3:window/text/app}"},
+      { "command": "${4:Comm2}", "context": "${5:Window/text/app}"}
+]}},
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>caption - Advanced</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.json</scope>
+  <description>A Command Block for "Macro" Commands</description>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+public void set${1:Property}(${2:Type} ${1:property}) {
+  this.${1:property} = ${1:property};
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>set</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.java</scope>
+</snippet>

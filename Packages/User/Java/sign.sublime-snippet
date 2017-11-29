@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+/**
+ * ${1:[Description]}
+ * @author Spencer Brower
+ * @since ${2:Month} ${3:Day}, 2017.
+ */
+]]></content>
+<tabTrigger>sign</tabTrigger>
+<scope>source.java</scope>
+<description>Dated signature</description>
+</snippet>

@@ -1,8 +1,0 @@
-<snippet>
-  <content><![CDATA[
-${1:Property1} = (${2:Property2} == ${3:Condition}) ? ${4:SucessCase} : ${5:FailCase};
-]]></content>
-  <tabTrigger>tern</tabTrigger>
-  <scope>source.java</scope>
-  <description>Basic Ternerary Operator</description>
-</snippet> 

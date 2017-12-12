@@ -68,7 +68,7 @@
 	"tab_completion": false,
 	"tab_size": 4,
 	"theme": "ayu-dark.sublime-theme",
-	"translate_tabs_to_spaces": true,
+	"translate_tabs_to_spaces": false,
 	"ui_fix_tab_labels": true,
 	"vintageous_start_in_command_mode": true,
 	"vintageous_use_ctrl_keys": true

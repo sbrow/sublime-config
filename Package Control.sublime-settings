@@ -45,6 +45,7 @@
 		"SublimeLinter",
 		"SublimeLinter-annotations",
 		"SublimeLinter-javac",
+		"SublimeLinter-php",
 		"SublimeLinter-pylint",
 		"Terminal",
 		"TodoReview",

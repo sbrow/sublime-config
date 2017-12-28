@@ -1,0 +1,10 @@
+{
+	"9o.hist./home/sbrow/.config/sublime-text-3/Packages":
+	[
+		"go build",
+		"go build testing.go"
+	],
+	"ann": "a17.12.17-1",
+	"install_version": "r17.12.17-1",
+	"version": "r17.12.17-1"
+}

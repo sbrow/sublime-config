@@ -5,18 +5,6 @@
    * TODO: More registers
    */
    
-   /**
-    * %     - goto matching bracket
-    * *, #, - next instance of word, previous instance
-    * J     - Join line below
-    * U,<cR>- undo, redo
-    * ~     - Swap case
-    * q<char- Record/Stop Macro
-    * @<char- trigger macro
-    * alt w - Move by Sub-words, (Underscore and camelCase)
-    * '     - Bookmark
-    * "     - Register
-    */
   /**
    *
    * PANE CONTROLS
@@ -30,14 +18,6 @@
   { "keys": ["Z","Z"], "command": "exit", "context":{"key": "vi_command_mode_aware"}},
 
   { "keys": ["ctrl+h"], "command": "show_panel", "args": {"panel": "replace", "reverse": false} },
-  // { "keys": ["\"", "a", "y"], "command": "clipboard_manager_copy_to_register", "args":{"register":"a"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "a", "p"], "command": "clipboard_manager_paste_from_register", "args":{"register":"a"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "b", "y"], "command": "clipboard_manager_copy_to_register", "args":{"register":"b"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "b", "p"], "command": "clipboard_manager_paste_from_register", "args":{"register":"b"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "c", "y"], "command": "clipboard_manager_copy_to_register", "args":{"register":"c"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "c", "p"], "command": "clipboard_manager_paste_from_register", "args":{"register":"c"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "d", "y"], "command": "clipboard_manager_copy_to_register", "args":{"register":"d"}, "context":[{"key":"setting.command_mode"}]},
-  // { "keys": ["\"", "d", "p"], "command": "clipboard_manager_paste_from_register", "args":{"register":"d"}, "context":[{"key":"setting.command_mode"}]},
   /**
    * Vintage Commands
    */
@@ -130,8 +110,8 @@
         { "key":"vi_state_empty"}
       ]},
   { "keys": ["ctrl+;"],     "command": "press_key", "args": {"key": ":"},   "context": [{"key": "vi_command_mode_aware"}]},
-  // { "keys": ["ctrl+j"], "command": "select_lines", "args": {"forward": true}},
-  // { "keys": ["ctrl+k"], "command": "select_lines", "args": {"forward": false}},
+  { "keys": ["ctrl+j"], "command": "select_lines", "args": {"forward": true}},
+  { "keys": ["ctrl+k"], "command": "select_lines", "args": {"forward": false}},
   { "keys": ["ctrl+l"], "command": "next_view" },
   { "keys": ["high"], "command": "prev_view" },
   { "keys": ["ctrl+`"], "command": "show_panel", "args": {"panel": "console", "toggle": true}, "context":{"key":"vi_command_mode_aware"}},

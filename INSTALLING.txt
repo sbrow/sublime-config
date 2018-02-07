@@ -1,0 +1,7 @@
+1. Install Sublime Text 3.
+2. Install Package Control
+3. Install Package "Package Syncing"
+4. Copy Default preferences from "Default" to "User"
+5. Clone settings repo: "github.com/sbrow/sublime-config"
+6. Edit config "sync_folder" to the local repo.
+7. Edit config "sync" to "true"

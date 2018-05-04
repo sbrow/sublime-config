@@ -18,7 +18,10 @@
 		"Crossen",
 		"Kickstarter",
 		"Majeure",
-		"majeure"
+		"majeure",
+		"Photoshop",
+		"Mokoi",
+		"Ravat"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_selector": "source, text, .fountain",
@@ -49,6 +52,7 @@
 	"hide_minimap": true,
 	"ignored_packages":
 	[
+		"GitGutter",
 		"Markdown",
 		"Vintage",
 		"VintageES"
@@ -66,6 +70,7 @@
 	],
 	"shift_tab_unindent": true,
 	"skin": "Skins/Monokai (Adaptive)",
+	"spell_check": true,
 	"tab_completion": false,
 	"tab_size": 4,
 	"theme": "Adaptive.sublime-theme",

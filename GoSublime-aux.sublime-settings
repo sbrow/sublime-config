@@ -4,7 +4,7 @@
 		"go build",
 		"go build testing.go"
 	],
-	"ann": "a18.03.26-1",
-	"install_version": "r18.01.17-1",
-	"version": "r18.03.26-1"
+	"ann": "a18.04.30-1",
+	"install_version": "r18.04.30-1",
+	"version": "r18.04.30-1"
 }

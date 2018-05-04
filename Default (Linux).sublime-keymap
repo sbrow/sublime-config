@@ -171,7 +171,7 @@
   },
   { "keys": ["ctrl+shift+k"], "command": "swap_line_up" },
   { "keys": ["ctrl+shift+j"], "command": "swap_line_down" },
-  { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ":"} },
+  { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "text": ""} },
   { "keys": ["ctrl+f"], "command": "show_panel", "args": {"panel": "find", "reverse": false} }
   // { "keys": ["tab"], "command": "hide_overlay", "context": [
   //   { "key": "overlay_visible", "operator": "equals", "operand": true}

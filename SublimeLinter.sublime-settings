@@ -1,17 +1,14 @@
 // SublimeLinter Settings - User
 {
-	"debug": true,	
+	"debug": true,
 	"linters": {
-		"golint" : {
+		"golint":{
 			"args": "-min_confidence 0.8",
-			"executable": "/home/sbrow/GitHub/Code/go/bin/golint",
-			"selector": "source.go"
+			"disable": true
 		},
 		"gometalinter": {
-			"args": "",
-			"selector": "source.go",
-			"lint_mode": "load_save",
-			"executable": "/home/sbrow/GitHub/Code/go/bin/gometalinter.v2"
+			"executable": "C:\\Users\\Spencer\\go\\bin\\gometalinter.v2.exe",
+			"lint_mode": "load_save"
 		}
 	}
 }

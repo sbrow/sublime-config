@@ -1,0 +1,12 @@
+
+GoSublime/windows-x64/bin/gosublime\.margo_r18\.05\.19-1_go1\.10\.2\.exe
+
+GoSublime/windows-x64/log\.txt
+
+*.info
+
+Package Control\.cache/
+
+*.last-run
+
+SublimeLinter\.sublime-settings

@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+CREATE OR REPLACE VIEW ${1:view_name} AS
+	${2:definition};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>CREATE VIEW</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>

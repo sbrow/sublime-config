@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+UPDATE ${1:table_name}
+SET ${2:column_name} = ${3:column_value}${4:
+WHERE ${5:condition}};
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>UPDATE TABLE</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.sql</scope>
+</snippet>

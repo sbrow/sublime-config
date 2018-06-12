@@ -46,6 +46,8 @@
 		"sublime-text-2-buildview",
 		"SublimeLinter",
 		"SublimeLinter-annotations",
+		"SublimeLinter-contrib-gometalinter",
+		"SublimeLinter-golint",
 		"SublimeLinter-javac",
 		"SublimeLinter-php",
 		"SublimeLinter-pylint",

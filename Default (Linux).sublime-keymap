@@ -24,7 +24,7 @@
   //Open and Close Folds
   { "keys": ["z","c"], "command":"fold", "context":[{"key": "vi_command_mode_aware"}]},
   { "keys": ["z","o"], "command":"unfold", "context":[{"key": "vi_command_mode_aware"}]},
-  { "keys": ["z","C"], "command":"fold_by_level", "args":{"level":2}, "context":[{"key": "vi_command_mode_aware"}]},
+  { "keys": ["z","C"], "command":"fold_by_level", "args":{"level":1}, "context":[{"key": "vi_command_mode_aware"}]},
   { "keys": ["z","O"], "command":"unfold_all", "context":[{"key": "vi_command_mode_aware"}]},
 
   //Window Management

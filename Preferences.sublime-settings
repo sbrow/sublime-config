@@ -21,7 +21,17 @@
 		"majeure",
 		"Photoshop",
 		"Mokoi",
-		"Ravat"
+		"Ravat",
+		"goroutine",
+		"termbox",
+		"termbox's",
+		"roguelike",
+		"Gorogue",
+		"gorogue",
+		"online",
+		"unmarshaling",
+		"goroutines",
+		"struct"
 	],
 	"always_show_minimap_viewport": true,
 	"auto_complete_selector": "source, text, .fountain",
